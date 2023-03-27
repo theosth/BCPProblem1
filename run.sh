@@ -5,6 +5,7 @@ apk add --no-cache python3-dev py3-pip
 pip install --no-cache-dir -r /app/repo/requirements.txt
 
 # Run the factorial.py script with a sample input
+mkdir -p /app/repo/model
 python /app/repo/train.py
 
 # Create output directory if it doesn't exist
