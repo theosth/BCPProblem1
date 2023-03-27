@@ -18,7 +18,7 @@ model.compile(optimizer='adam', loss='mse')
 model.fit(X, Y, epochs=10, batch_size=32)
 
 # Save the trained model
-model.save('model/model.h5')
+model.save('model.h5')
 
 # Create output directory if it doesn't exist
 # os.makedirs('output', exist_ok=True)
