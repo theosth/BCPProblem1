@@ -2,7 +2,9 @@
 
 # Install required packages
 apk add --no-cache python3-dev py3-pip
-pip install --no-cache-dir tensorflow
+# pip install tensorflow
+python3 -m pip install tensorflow
+
 
 # Run the factorial.py script with a sample input
 python /app/repo/train.py
