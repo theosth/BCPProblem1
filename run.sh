@@ -2,7 +2,7 @@
 
 # Install required packages
 apk add --no-cache python3-dev py3-pip
-pip install --no-cache-dir -r /app/repo/requirements.txt
+pip install --no-cache-dir tensorflow=2.6.0
 
 # Run the factorial.py script with a sample input
 python /app/repo/train.py
