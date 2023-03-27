@@ -24,4 +24,4 @@ model.save('model')
 os.makedirs('output', exist_ok=True)
 
 # Move the model folder to the output directory
-os.rename('model', 'output/model')
+# os.rename('model', 'output/model')

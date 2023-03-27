@@ -11,4 +11,4 @@ python /app/repo/train.py
 mkdir -p /app/repo/output
 
 # Move the output.txt to the output directory
-mv /app/repo/output/model /app/repo/output/model
+mv /app/repo/model /app/repo/output/model
